@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteracjaEuklides", "IteracjaEuklides\IteracjaEuklides.csproj", "{77187D97-A0FB-4E8B-A082-53F2DA5067BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteracjaEuklides", "IteracjaEuklides\IteracjaEuklides.csproj", "{77187D97-A0FB-4E8B-A082-53F2DA5067BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteracjaWyszukiwanieBinarne", "IteracjaWyszukiwanieBinarne\IteracjaWyszukiwanieBinarne.csproj", "{A7EE4895-7840-4F45-9D19-7801AF13A12A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{77187D97-A0FB-4E8B-A082-53F2DA5067BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77187D97-A0FB-4E8B-A082-53F2DA5067BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77187D97-A0FB-4E8B-A082-53F2DA5067BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7EE4895-7840-4F45-9D19-7801AF13A12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EE4895-7840-4F45-9D19-7801AF13A12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EE4895-7840-4F45-9D19-7801AF13A12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EE4895-7840-4F45-9D19-7801AF13A12A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
