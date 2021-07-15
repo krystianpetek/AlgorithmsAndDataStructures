@@ -9,41 +9,59 @@ namespace IteracjaEuklides
             Console.WriteLine("Podaj pierwszą liczbę");
             int pierwsza = Convert.ToInt32(Console.ReadLine());
             int druga = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(Euklides(pierwsza, druga));
+            Console.WriteLine(EuklidesOdejmowanie(pierwsza, druga));
+            Console.WriteLine();
+            Console.WriteLine(EuklidesModulo(pierwsza, druga));
         }
-        static string Euklides(int wieksza, int mniejsza)
+        static string EuklidesOdejmowanie(int wieksza, int mniejsza)
         {
-            int pierwsza = wieksza;
-            int druga = mniejsza;
-            if (wieksza == mniejsza)
+            int a = wieksza;
+            int b = mniejsza;
+            int c;
+            if (a == b)
             {
-                return $"Wspólny dzielnik dla liczby {pierwsza} i {druga} to {wieksza}";
+                return $"Wspólny dzielnik dla liczby {wieksza} i {mniejsza} to {a}";
             }
 
-            if (mniejsza > wieksza)
+            if (b > a)
             {
-                var temp = mniejsza;
-                mniejsza = wieksza;
-                wieksza = temp;
+                c = b;
+                b = a;
+                a = c;
             }
 
             while (true)
             {
-                if (wieksza == mniejsza)
+                if (a == b)
                     break;
 
-                var tempWhile = wieksza - mniejsza;
-                if (tempWhile > mniejsza)
+                c = a - b;
+                if (c > b)
                 {
-                    wieksza = tempWhile;
+                    a = c;
                 }
                 else
                 {
-                    wieksza = mniejsza;
-                    mniejsza = tempWhile;
+                    a = b;
+                    b = c;
                 }
             }
-            return $"Wspólny dzielnik dla liczby {pierwsza} i {druga} to {wieksza}";
+            return $"(Odejmowanie) Wspólny dzielnik dla liczby {wieksza} i {mniejsza} to {a}";
+        }
+
+        static string EuklidesModulo(int wieksza, int mniejsza)
+        {
+            int a = wieksza;
+            int b = mniejsza;
+            int c;
+
+            while (b != 0)
+            {
+                c = a % b;
+                a = b;
+                b = c;
+            }
+            return $"(Reszta z dzielenia) Wspólny dzielnik dla liczby {wieksza} i {mniejsza} to {a}"; ;
         }
     }
 }
