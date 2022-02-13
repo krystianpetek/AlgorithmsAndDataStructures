@@ -4,7 +4,7 @@ Console.WriteLine("==================================");
 Console.Write("Podaj liczbę: ");
 string? input = Console.ReadLine();
 bool check = int.TryParse(input, out int output);
-if(!check)
+if (!check)
 {
     Console.WriteLine("Wprowadzona wartość nie jest liczbą");
     return;

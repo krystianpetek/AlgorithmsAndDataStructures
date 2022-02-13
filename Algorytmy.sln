@@ -9,15 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteracjaWyszukiwanieBinarne
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlgorytmyDlaPoczatkujacych", "AlgorytmyDlaPoczatkujacych", "{999E3524-4FB0-4E24-AE01-1B87DE908C98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_WartoscBezwzgledna", "1_WartoscBezwzgledna\1_WartoscBezwzgledna.csproj", "{519C0E49-1F17-4EE1-8CF6-78343F279A1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_WartoscBezwzgledna", "1_WartoscBezwzgledna\1_WartoscBezwzgledna.csproj", "{519C0E49-1F17-4EE1-8CF6-78343F279A1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_SumaElementowTablicy", "2_SumaElementowTablicy\2_SumaElementowTablicy.csproj", "{390D3FBD-DB66-4D0A-87EA-BD07C85AEF34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_SumaElementowTablicy", "2_SumaElementowTablicy\2_SumaElementowTablicy.csproj", "{390D3FBD-DB66-4D0A-87EA-BD07C85AEF34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_ZliczanieWystapienElementuWTablicy", "3_ZliczanieWystapienElementuWTablicy\3_ZliczanieWystapienElementuWTablicy.csproj", "{6A85B87B-0C34-4EF7-BA94-34E389A72BF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_ZliczanieWystapienElementuWTablicy", "3_ZliczanieWystapienElementuWTablicy\3_ZliczanieWystapienElementuWTablicy.csproj", "{6A85B87B-0C34-4EF7-BA94-34E389A72BF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_SzukanieElementuMinMax", "4_SzukanieElementuMinMax\4_SzukanieElementuMinMax.csproj", "{9082D744-7A5C-497C-8316-CDAC456CFEE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_SzukanieElementuMinMax", "4_SzukanieElementuMinMax\4_SzukanieElementuMinMax.csproj", "{9082D744-7A5C-497C-8316-CDAC456CFEE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_SzukanieZadanegoElementu", "5_SzukanieZadanegoElementu\5_SzukanieZadanegoElementu.csproj", "{27FCE9E2-1B90-4F18-AEE4-9AC9762EB9EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_SzukanieZadanegoElementu", "5_SzukanieZadanegoElementu\5_SzukanieZadanegoElementu.csproj", "{27FCE9E2-1B90-4F18-AEE4-9AC9762EB9EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_SzukanieElementuZWartownikiem", "6_SzukanieElementuZWartownikiem\6_SzukanieElementuZWartownikiem.csproj", "{5560846F-7409-4A73-9F0C-C864063B79D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{27FCE9E2-1B90-4F18-AEE4-9AC9762EB9EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27FCE9E2-1B90-4F18-AEE4-9AC9762EB9EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27FCE9E2-1B90-4F18-AEE4-9AC9762EB9EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5560846F-7409-4A73-9F0C-C864063B79D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5560846F-7409-4A73-9F0C-C864063B79D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5560846F-7409-4A73-9F0C-C864063B79D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5560846F-7409-4A73-9F0C-C864063B79D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +69,7 @@ Global
 		{6A85B87B-0C34-4EF7-BA94-34E389A72BF1} = {999E3524-4FB0-4E24-AE01-1B87DE908C98}
 		{9082D744-7A5C-497C-8316-CDAC456CFEE7} = {999E3524-4FB0-4E24-AE01-1B87DE908C98}
 		{27FCE9E2-1B90-4F18-AEE4-9AC9762EB9EB} = {999E3524-4FB0-4E24-AE01-1B87DE908C98}
+		{5560846F-7409-4A73-9F0C-C864063B79D2} = {999E3524-4FB0-4E24-AE01-1B87DE908C98}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {893188A1-43D6-43E3-85C0-CF8B254169D3}

@@ -1,6 +1,6 @@
-﻿int[] tablicaLiczb = new[] {4,1,6,1,3};
+﻿int[] tablicaLiczb = new[] { 4, 1, 6, 1, 3 };
 int wynik = 0;
-for(int i = 0; i < tablicaLiczb.Length; i++)
+for (int i = 0; i < tablicaLiczb.Length; i++)
 {
     Console.WriteLine($"wynik = wynik + a[{i}] = {wynik} + {tablicaLiczb[i]} = {wynik + tablicaLiczb[i]}");
     wynik += tablicaLiczb[i];

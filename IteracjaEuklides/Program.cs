@@ -2,9 +2,9 @@
 
 namespace IteracjaEuklides
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("Podaj pierwszą liczbę");
             int pierwsza = Convert.ToInt32(Console.ReadLine());
@@ -13,7 +13,8 @@ namespace IteracjaEuklides
             Console.WriteLine();
             Console.WriteLine(EuklidesModulo(pierwsza, druga));
         }
-        static string EuklidesOdejmowanie(int wieksza, int mniejsza)
+
+        private static string EuklidesOdejmowanie(int wieksza, int mniejsza)
         {
             int a = wieksza;
             int b = mniejsza;
@@ -49,7 +50,7 @@ namespace IteracjaEuklides
             return $"(Odejmowanie) Wspólny dzielnik dla liczby {wieksza} i {mniejsza} to {a}";
         }
 
-        static string EuklidesModulo(int wieksza, int mniejsza)
+        private static string EuklidesModulo(int wieksza, int mniejsza)
         {
             int a = wieksza;
             int b = mniejsza;

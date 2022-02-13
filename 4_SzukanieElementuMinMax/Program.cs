@@ -4,7 +4,7 @@ int max = tablicaLiczb[0];
 
 for (int i = 1; i < tablicaLiczb.Length; i++)
 {
-        Console.Write($"Czy liczba {tablicaLiczb[i]} jest mniejsza od {min} ? ");
+    Console.Write($"Czy liczba {tablicaLiczb[i]} jest mniejsza od {min} ? ");
     if (tablicaLiczb[i] < min)
     {
         Console.WriteLine("Tak");
