@@ -4,10 +4,15 @@ int max = tablicaLiczb[0];
 
 for (int i = 1; i < tablicaLiczb.Length; i++)
 {
-    if(tablicaLiczb[i] < min)
+        Console.Write($"Czy liczba {tablicaLiczb[i]} jest mniejsza od {min} ? ");
+    if (tablicaLiczb[i] < min)
     {
+        Console.WriteLine("Tak");
         min = tablicaLiczb[i];
-        Console.WriteLine($"");
+    }
+    else
+    {
+        Console.WriteLine("Nie");
     }
 }
 Console.WriteLine($"Wartość minimalna = {min}");
@@ -15,10 +20,15 @@ Console.WriteLine();
 
 for (int i = 1; i < tablicaLiczb.Length; i++)
 {
-    if(tablicaLiczb[i] > max)
+    Console.Write($"Czy liczba {tablicaLiczb[i]} jest wieksza od {max} ? ");
+    if (tablicaLiczb[i] > max)
     {
+        Console.WriteLine("Tak");
         max = tablicaLiczb[i];
-        Console.WriteLine($"");
+    }
+    else
+    {
+        Console.WriteLine("Nie");
     }
 }
 Console.WriteLine($"Wartość maksymalna = {max}");
