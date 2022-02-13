@@ -32,3 +32,5 @@ for (int i = 1; i < tablicaLiczb.Length; i++)
     }
 }
 Console.WriteLine($"Wartość maksymalna = {max}");
+
+// http://www.algorytm.org/dla-poczatkujacych/szukanie-elementu-minimalnego-maksymalnego.html
