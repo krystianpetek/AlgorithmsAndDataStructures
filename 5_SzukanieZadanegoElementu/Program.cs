@@ -10,12 +10,14 @@ if(!check)
 
 for (int i = 0; i < tablicaLiczb.Length; i++)
 {
+    Console.Write($"Czy liczba {output} jest równa {tablicaLiczb[i]}? ");
     if (output == tablicaLiczb[i])
     {
+        Console.WriteLine("Tak!");
         Console.WriteLine("Znaleziono element w tablicy");
         return;
     }
-
+    Console.WriteLine("Nie");
     if (i == tablicaLiczb.Length - 1)
         Console.WriteLine("Nie znaleziono elementu w tablicy");
 }
