@@ -10,8 +10,16 @@ if(!check)
 }
 for(int i = 0;i< tablicaLiczb.Length;i++)
 {
+    Console.Write($"Czy wartość {szukana} jest równa {tablicaLiczb[i]}? ");
     if (szukana == tablicaLiczb[i])
+    {
+        Console.WriteLine("Tak! +1");
         iloscWystapien++;
+    }
+    else
+    {
+        Console.WriteLine("Nie.");
+    }
 }
 Console.WriteLine($"Liczba {szukana} wystąpiła {iloscWystapien} razy.");
 
