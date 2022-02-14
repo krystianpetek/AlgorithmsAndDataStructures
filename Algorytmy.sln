@@ -31,6 +31,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_PotegowanieZUwzglednieni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_SredniaArytmetyczna", "11_SredniaArytmetyczna\11_SredniaArytmetyczna.csproj", "{5AF3E1F3-DDD1-40A5-8184-91455397F088}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_TestParzystosci", "12_TestParzystosci\12_TestParzystosci.csproj", "{929AF13B-CC51-4C4E-92E1-960828415B36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_WyznaczenieDominanty", "13_WyznaczenieDominanty\13_WyznaczenieDominanty.csproj", "{3A73752C-1AF9-4C58-9362-9860F1B65ABF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +93,14 @@ Global
 		{5AF3E1F3-DDD1-40A5-8184-91455397F088}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AF3E1F3-DDD1-40A5-8184-91455397F088}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AF3E1F3-DDD1-40A5-8184-91455397F088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929AF13B-CC51-4C4E-92E1-960828415B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929AF13B-CC51-4C4E-92E1-960828415B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929AF13B-CC51-4C4E-92E1-960828415B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929AF13B-CC51-4C4E-92E1-960828415B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A73752C-1AF9-4C58-9362-9860F1B65ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A73752C-1AF9-4C58-9362-9860F1B65ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A73752C-1AF9-4C58-9362-9860F1B65ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A73752C-1AF9-4C58-9362-9860F1B65ABF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -105,6 +117,8 @@ Global
 		{EAF27842-7AAB-4288-B1ED-3EDFF8978EB7} = {999E3524-4FB0-4E24-AE01-1B87DE908C98}
 		{DB01C121-4F56-4248-B68A-A0E9EFF05D8D} = {999E3524-4FB0-4E24-AE01-1B87DE908C98}
 		{5AF3E1F3-DDD1-40A5-8184-91455397F088} = {999E3524-4FB0-4E24-AE01-1B87DE908C98}
+		{929AF13B-CC51-4C4E-92E1-960828415B36} = {999E3524-4FB0-4E24-AE01-1B87DE908C98}
+		{3A73752C-1AF9-4C58-9362-9860F1B65ABF} = {999E3524-4FB0-4E24-AE01-1B87DE908C98}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {893188A1-43D6-43E3-85C0-CF8B254169D3}
