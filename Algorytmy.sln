@@ -19,15 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_SzukanieElementuMinMax", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_SzukanieZadanegoElementu", "5_SzukanieZadanegoElementu\5_SzukanieZadanegoElementu.csproj", "{27FCE9E2-1B90-4F18-AEE4-9AC9762EB9EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_SzukanieElementuZWartownikiem", "6_SzukanieElementuZWartownikiem\6_SzukanieElementuZWartownikiem.csproj", "{5560846F-7409-4A73-9F0C-C864063B79D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_SzukanieElementuZWartownikiem", "6_SzukanieElementuZWartownikiem\6_SzukanieElementuZWartownikiem.csproj", "{5560846F-7409-4A73-9F0C-C864063B79D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_SzukaniePolowkowe_Binarne", "7_SzukaniePolowkowe_Binarne\7_SzukaniePolowkowe_Binarne.csproj", "{BD5405A7-4983-41F1-B062-203D93EE708D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_SzukaniePolowkowe_Binarne", "7_SzukaniePolowkowe_Binarne\7_SzukaniePolowkowe_Binarne.csproj", "{BD5405A7-4983-41F1-B062-203D93EE708D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_SumaCyfrLiczbyCalkowitej", "8_SumaCyfrLiczbyCalkowitej\8_SumaCyfrLiczbyCalkowitej.csproj", "{8D1553F1-01A0-488E-A1FC-681FDBC937F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_SumaCyfrLiczbyCalkowitej", "8_SumaCyfrLiczbyCalkowitej\8_SumaCyfrLiczbyCalkowitej.csproj", "{8D1553F1-01A0-488E-A1FC-681FDBC937F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_Potegowanie", "9_Potegowanie\9_Potegowanie.csproj", "{EAF27842-7AAB-4288-B1ED-3EDFF8978EB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_Potegowanie", "9_Potegowanie\9_Potegowanie.csproj", "{EAF27842-7AAB-4288-B1ED-3EDFF8978EB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_PotegowanieZUwzglednieniemWykladnikowUjemnych", "10_PotegowanieZUwzglednieniemWykladnikowUjemnych\10_PotegowanieZUwzglednieniemWykladnikowUjemnych.csproj", "{DB01C121-4F56-4248-B68A-A0E9EFF05D8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_PotegowanieZUwzglednieniemWykladnikowUjemnych", "10_PotegowanieZUwzglednieniemWykladnikowUjemnych\10_PotegowanieZUwzglednieniemWykladnikowUjemnych.csproj", "{DB01C121-4F56-4248-B68A-A0E9EFF05D8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_SredniaArytmetyczna", "11_SredniaArytmetyczna\11_SredniaArytmetyczna.csproj", "{5AF3E1F3-DDD1-40A5-8184-91455397F088}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,10 @@ Global
 		{DB01C121-4F56-4248-B68A-A0E9EFF05D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB01C121-4F56-4248-B68A-A0E9EFF05D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB01C121-4F56-4248-B68A-A0E9EFF05D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF3E1F3-DDD1-40A5-8184-91455397F088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF3E1F3-DDD1-40A5-8184-91455397F088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF3E1F3-DDD1-40A5-8184-91455397F088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF3E1F3-DDD1-40A5-8184-91455397F088}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +104,7 @@ Global
 		{8D1553F1-01A0-488E-A1FC-681FDBC937F3} = {999E3524-4FB0-4E24-AE01-1B87DE908C98}
 		{EAF27842-7AAB-4288-B1ED-3EDFF8978EB7} = {999E3524-4FB0-4E24-AE01-1B87DE908C98}
 		{DB01C121-4F56-4248-B68A-A0E9EFF05D8D} = {999E3524-4FB0-4E24-AE01-1B87DE908C98}
+		{5AF3E1F3-DDD1-40A5-8184-91455397F088} = {999E3524-4FB0-4E24-AE01-1B87DE908C98}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {893188A1-43D6-43E3-85C0-CF8B254169D3}
