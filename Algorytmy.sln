@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteracjaEuklides", "Iteracj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteracjaWyszukiwanieBinarne", "IteracjaWyszukiwanieBinarne\IteracjaWyszukiwanieBinarne.csproj", "{A7EE4895-7840-4F45-9D19-7801AF13A12A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlgorytmyDlaPoczatkujacych", "AlgorytmyDlaPoczatkujacych", "{999E3524-4FB0-4E24-AE01-1B87DE908C98}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_AlgorytmyDlaPoczatkujacych", "1_AlgorytmyDlaPoczatkujacych", "{999E3524-4FB0-4E24-AE01-1B87DE908C98}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_WartoscBezwzgledna", "1_WartoscBezwzgledna\1_WartoscBezwzgledna.csproj", "{519C0E49-1F17-4EE1-8CF6-78343F279A1E}"
 EndProject
@@ -29,11 +29,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_Potegowanie", "9_Potegowa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_PotegowanieZUwzglednieniemWykladnikowUjemnych", "10_PotegowanieZUwzglednieniemWykladnikowUjemnych\10_PotegowanieZUwzglednieniemWykladnikowUjemnych.csproj", "{DB01C121-4F56-4248-B68A-A0E9EFF05D8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_SredniaArytmetyczna", "11_SredniaArytmetyczna\11_SredniaArytmetyczna.csproj", "{5AF3E1F3-DDD1-40A5-8184-91455397F088}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_SredniaArytmetyczna", "11_SredniaArytmetyczna\11_SredniaArytmetyczna.csproj", "{5AF3E1F3-DDD1-40A5-8184-91455397F088}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_TestParzystosci", "12_TestParzystosci\12_TestParzystosci.csproj", "{929AF13B-CC51-4C4E-92E1-960828415B36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_TestParzystosci", "12_TestParzystosci\12_TestParzystosci.csproj", "{929AF13B-CC51-4C4E-92E1-960828415B36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_WyznaczenieDominanty", "13_WyznaczenieDominanty\13_WyznaczenieDominanty.csproj", "{3A73752C-1AF9-4C58-9362-9860F1B65ABF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_WyznaczenieDominanty", "13_WyznaczenieDominanty\13_WyznaczenieDominanty.csproj", "{3A73752C-1AF9-4C58-9362-9860F1B65ABF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_NaprzemiennoscDuzychIMalychLiterWTekscie", "14_NaprzemiennoscDuzychIMalychLiterWTekscie\14_NaprzemiennoscDuzychIMalychLiterWTekscie.csproj", "{9BFA6084-B16F-40F6-B8B2-05837AF56BAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_AlgorytmySortowania", "2_AlgorytmySortowania", "{CD4D37ED-946A-41F5-B195-EFEB4E821FDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_SortowanieBabelkowe", "1_SortowanieBabelkowe\1_SortowanieBabelkowe.csproj", "{C77AB03D-F43C-4073-9F06-8285EE63360F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +107,14 @@ Global
 		{3A73752C-1AF9-4C58-9362-9860F1B65ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A73752C-1AF9-4C58-9362-9860F1B65ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A73752C-1AF9-4C58-9362-9860F1B65ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BFA6084-B16F-40F6-B8B2-05837AF56BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BFA6084-B16F-40F6-B8B2-05837AF56BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BFA6084-B16F-40F6-B8B2-05837AF56BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BFA6084-B16F-40F6-B8B2-05837AF56BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C77AB03D-F43C-4073-9F06-8285EE63360F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C77AB03D-F43C-4073-9F06-8285EE63360F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C77AB03D-F43C-4073-9F06-8285EE63360F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C77AB03D-F43C-4073-9F06-8285EE63360F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +133,8 @@ Global
 		{5AF3E1F3-DDD1-40A5-8184-91455397F088} = {999E3524-4FB0-4E24-AE01-1B87DE908C98}
 		{929AF13B-CC51-4C4E-92E1-960828415B36} = {999E3524-4FB0-4E24-AE01-1B87DE908C98}
 		{3A73752C-1AF9-4C58-9362-9860F1B65ABF} = {999E3524-4FB0-4E24-AE01-1B87DE908C98}
+		{9BFA6084-B16F-40F6-B8B2-05837AF56BAE} = {999E3524-4FB0-4E24-AE01-1B87DE908C98}
+		{C77AB03D-F43C-4073-9F06-8285EE63360F} = {CD4D37ED-946A-41F5-B195-EFEB4E821FDE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {893188A1-43D6-43E3-85C0-CF8B254169D3}

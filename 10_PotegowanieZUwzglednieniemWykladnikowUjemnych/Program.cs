@@ -29,3 +29,5 @@ else
     wynik = 1 / wynik;
     Console.WriteLine($"{aOut}^{bOut} = {wynik}");
 }
+
+// http://www.algorytm.org/dla-poczatkujacych/potegowanie-z-uwzglednieniem-wykladnikow-ujemnych.html

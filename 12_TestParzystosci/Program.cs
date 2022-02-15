@@ -9,3 +9,5 @@ if (!sprawdzParzystosc)
 }
 string wynik = (parzysta % 2 == 0) ? $"Liczba {parzysta} jest parzysta" : $"Liczba {parzysta} nie jest parzysta";
 Console.WriteLine(wynik);
+
+// http://www.algorytm.org/dla-poczatkujacych/test-parzystosci.html

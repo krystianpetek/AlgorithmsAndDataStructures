@@ -15,3 +15,5 @@ while (i < n)
 Console.Write($"Średnia arytmetyczna: {wynik} / {n} = ");
 wynik = wynik / n;
 Console.Write($"{wynik}");
+
+// http://www.algorytm.org/dla-poczatkujacych/srednia-arytmetyczna.html
