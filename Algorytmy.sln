@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteracjaEuklides", "IteracjaEuklides\IteracjaEuklides.csproj", "{77187D97-A0FB-4E8B-A082-53F2DA5067BC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteracjaWyszukiwanieBinarne", "IteracjaWyszukiwanieBinarne\IteracjaWyszukiwanieBinarne.csproj", "{A7EE4895-7840-4F45-9D19-7801AF13A12A}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_AlgorytmyDlaPoczatkujacych", "1_AlgorytmyDlaPoczatkujacych", "{999E3524-4FB0-4E24-AE01-1B87DE908C98}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_WartoscBezwzgledna", "1_WartoscBezwzgledna\1_WartoscBezwzgledna.csproj", "{519C0E49-1F17-4EE1-8CF6-78343F279A1E}"
@@ -51,10 +49,6 @@ Global
 		{77187D97-A0FB-4E8B-A082-53F2DA5067BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77187D97-A0FB-4E8B-A082-53F2DA5067BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77187D97-A0FB-4E8B-A082-53F2DA5067BC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A7EE4895-7840-4F45-9D19-7801AF13A12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7EE4895-7840-4F45-9D19-7801AF13A12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7EE4895-7840-4F45-9D19-7801AF13A12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7EE4895-7840-4F45-9D19-7801AF13A12A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{519C0E49-1F17-4EE1-8CF6-78343F279A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{519C0E49-1F17-4EE1-8CF6-78343F279A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{519C0E49-1F17-4EE1-8CF6-78343F279A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
