@@ -7,22 +7,22 @@ Wypisz(tablicaLiczbPoSortowaniu);
 
 int[] Sortowanie(int[] tablica)
 {
-    bool flaga = true;
-    while (flaga)
+    for (int i = 0; i < tablica.Length; i++)
     {
-        for (int licznik = 0; licznik < tablica.Length - 1; licznik++)
+        int minimum = tablica[i];
+        int index = 0;
+        for (int j = i + 1; j < tablica.Length; j++)
         {
-            if (tablica[licznik] > tablica[licznik + 1])
+            if (tablica[j] < minimum)
             {
-                Zamiana(ref tablica[licznik], ref tablica[licznik + 1]);
-                flaga = false;
+                minimum = tablica[j];
+                index = Array.IndexOf(tablica, minimum);
             }
         }
-
-        if (flaga)
+        if (tablica.Length - 1 == i)
             break;
-        else
-            flaga = true;
+
+        Zamiana(ref tablica[index], ref tablica[i]);
     }
     return tablica;
 }
@@ -33,6 +33,7 @@ void Zamiana(ref int x, ref int y)
     x = y;
     y = temp;
 }
+
 void Wypisz(int[] tablicaLiczb)
 {
     for (int i = 0; i < tablicaLiczb.Length; i++)
@@ -44,4 +45,5 @@ void Wypisz(int[] tablicaLiczb)
     }
     Console.Write("]\n");
 }
-// http://www.algorytm.org/algorytmy-sortowania/sortowanie-babelkowe-bubblesort.html
+
+// http://www.algorytm.org/algorytmy-sortowania/sortowanie-przez-wymiane-wybor-selectionsort.html
