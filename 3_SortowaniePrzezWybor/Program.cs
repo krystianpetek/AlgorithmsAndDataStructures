@@ -22,6 +22,7 @@ int[] Sortowanie(int[] tablica)
         if (tablica.Length - 1 == i)
             break;
 
+        Console.WriteLine($"MINIMUM: {minimum}, zamieniam {tablica[i]} z indexu[{i}] na {tablica[index]} z indexu[{index}]");
         Zamiana(ref tablica[index], ref tablica[i]);
     }
     return tablica;
