@@ -1,29 +1,28 @@
 ﻿int[] tablicaLiczb = { 1000, 33, 123, 10, 1, 12442, 99, 111 };
 Console.Write($"Tablica liczb przed sortowaniem: [");
 Wypisz(tablicaLiczb);
-var tablicaLiczbPoSortowaniu = Sortowanie(tablicaLiczb,0,tablicaLiczb.Length-1);
+var tablicaLiczbPoSortowaniu = Sortowanie(tablicaLiczb, 0, tablicaLiczb.Length - 1);
 Console.Write($"Tablica liczb po sortowaniu: [");
 Wypisz(tablicaLiczbPoSortowaniu);
-
 
 int[] Sortowanie(int[] tablica, int lewo, int prawo)
 {
     int pivot = tablica[prawo];
 
     int wskaznikLewy = lewo;
-    int wskaznikPrawy = prawo-1;
+    int wskaznikPrawy = prawo - 1;
 
-    while(true)
+    while (true)
     {
-        while(tablica[wskaznikLewy] < pivot && wskaznikLewy <= wskaznikPrawy)
+        while (tablica[wskaznikLewy] < pivot && wskaznikLewy <= wskaznikPrawy)
         {
             wskaznikLewy++;
         }
-        while(tablica[wskaznikPrawy] > pivot && wskaznikLewy <= wskaznikPrawy)
+        while (tablica[wskaznikPrawy] > pivot && wskaznikLewy <= wskaznikPrawy)
         {
             wskaznikPrawy--;
         }
-        if(wskaznikLewy <= wskaznikPrawy)
+        if (wskaznikLewy <= wskaznikPrawy)
         {
             Zamiana(ref tablica[wskaznikLewy], ref tablica[wskaznikPrawy]);
         }
