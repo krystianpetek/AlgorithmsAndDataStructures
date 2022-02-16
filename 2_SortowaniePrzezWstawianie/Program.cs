@@ -9,11 +9,18 @@ int[] Sortowanie(int[] tablica)
 {
     for (int i = 1; i < tablica.Length; i++)
     {
-        for (int j = 0; j < tablica.Length; j++)
+        for (int j = 0; j < i; j++)
         {
-            if (tablica[i] < tablica[j])
+            Console.Write($"Czy {tablica[j]} > {tablica[i]} ? ");
+
+            if (tablica[j] > tablica[i])
             {
+                Console.Write($"takm, zamieniam {tablica[j]} z {tablica[i]}\n");
                 Zamiana(ref tablica[i], ref tablica[j]);
+            }
+            else
+            {
+                Console.WriteLine("nie");
             }
         }
     }

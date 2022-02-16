@@ -7,25 +7,47 @@ Wypisz(tablicaLiczbPoSortowaniu);
 
 int[] Sortowanie(int[] tablica)
 {
-    bool flaga = true;
-    while (flaga)
+    for (int i = 1; i < tablica.Length; i++)
     {
-        for (int licznik = 0; licznik < tablica.Length - 1; licznik++)
+        for (int j = 0; j < tablica.Length - 1; j++)
         {
-            if (tablica[licznik] > tablica[licznik + 1])
+            Console.Write($"Czy {tablica[j]} > {tablica[j + 1]} ? ");
+            if (tablica[j] > tablica[j + 1])
             {
-                Zamiana(ref tablica[licznik], ref tablica[licznik + 1]);
-                flaga = false;
+                Console.Write($"zamieniam {tablica[j]} z {tablica[j + 1]}\n");
+                Zamiana(ref tablica[j], ref tablica[j + 1]);
+                continue;
+            }
+            else
+            {
+                Console.Write($"nie\n");
             }
         }
-
-        if (flaga)
-            break;
-        else
-            flaga = true;
     }
     return tablica;
 }
+
+// SORTOWANIE FLAGA
+//int[] Sortowanie(int[] tablica)
+//{
+//    bool flaga = true;
+//    while (flaga)
+//    {
+//        for (int licznik = 0; licznik < tablica.Length - 1; licznik++)
+//        {
+//            if (tablica[licznik] > tablica[licznik + 1])
+//            {
+//                Zamiana(ref tablica[licznik], ref tablica[licznik + 1]);
+//                flaga = false;
+//            }
+//        }
+//        if (flaga)
+//            break;
+//        else
+//            flaga = true;
+//    }
+//    return tablica;
+//}
 
 void Zamiana(ref int x, ref int y)
 {
