@@ -15,7 +15,7 @@ int[] Sortowanie(int[] tablica)
 
             if (tablica[j] > tablica[i])
             {
-                Console.Write($"takm, zamieniam {tablica[j]} z {tablica[i]}\n");
+                Console.Write($"tak, zamieniam {tablica[j]} z {tablica[i]}\n");
                 Zamiana(ref tablica[i], ref tablica[j]);
             }
             else
