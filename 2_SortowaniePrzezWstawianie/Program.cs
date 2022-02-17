@@ -9,7 +9,7 @@ int[] Sortowanie(int[] tablica)
 {
     for (int i = 1; i < tablica.Length; i++)
     {
-        for (int j = 0; j < i; j++)
+        for (int j = 0; j < i; j++) // chyba w druga strone trzeba zrobić
         {
             Console.Write($"Czy {tablica[j]} > {tablica[i]} ? ");
 
