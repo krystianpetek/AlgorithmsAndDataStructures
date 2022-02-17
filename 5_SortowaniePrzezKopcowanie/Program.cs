@@ -7,6 +7,7 @@ Wypisz(tablicaLiczbPoSortowaniu);
 
 int[] Sortowanie(int[] tablica, int lewo, int prawo)
 {
+
     return tablica;
 }
 
