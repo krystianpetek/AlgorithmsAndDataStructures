@@ -10,4 +10,4 @@
     }
 }
 
-Console.WriteLine(Fibonacci(19));
+Console.WriteLine(Fibonacci(9));
