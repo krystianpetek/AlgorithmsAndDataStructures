@@ -1,2 +1,2 @@
-# Algorytmy
+# WSEI Algorytmy i struktury danych
  
