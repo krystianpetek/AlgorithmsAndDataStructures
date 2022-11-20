@@ -27,7 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STPAR - Street Parade", "ST
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ONP - Transform the Expression", "ONP - Transform the Expression\ONP - Transform the Expression.csproj", "{2675A18D-A2A0-4D08-93F1-6CADEF04D578}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_check", "cpp_check\cpp_check.vcxproj", "{DE46369E-12AB-4487-9BA6-E6C12BFE16DF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_cubic_equatation", "cpp_check\cpp_check.vcxproj", "{DE46369E-12AB-4487-9BA6-E6C12BFE16DF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_bisection", "cpp_bisection\cpp_bisection.vcxproj", "{5392D49D-4C7C-46E6-8D6C-D70DB9B19FD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BisectionNumericMethod", "BisectionNumericMethod\BisectionNumericMethod.csproj", "{54E22530-3F8C-4FC7-ACD6-5768AAED09B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +175,30 @@ Global
 		{DE46369E-12AB-4487-9BA6-E6C12BFE16DF}.Release|x64.Build.0 = Release|x64
 		{DE46369E-12AB-4487-9BA6-E6C12BFE16DF}.Release|x86.ActiveCfg = Release|Win32
 		{DE46369E-12AB-4487-9BA6-E6C12BFE16DF}.Release|x86.Build.0 = Release|Win32
+		{5392D49D-4C7C-46E6-8D6C-D70DB9B19FD2}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{5392D49D-4C7C-46E6-8D6C-D70DB9B19FD2}.Debug|Any CPU.Build.0 = Debug|x64
+		{5392D49D-4C7C-46E6-8D6C-D70DB9B19FD2}.Debug|x64.ActiveCfg = Debug|x64
+		{5392D49D-4C7C-46E6-8D6C-D70DB9B19FD2}.Debug|x64.Build.0 = Debug|x64
+		{5392D49D-4C7C-46E6-8D6C-D70DB9B19FD2}.Debug|x86.ActiveCfg = Debug|Win32
+		{5392D49D-4C7C-46E6-8D6C-D70DB9B19FD2}.Debug|x86.Build.0 = Debug|Win32
+		{5392D49D-4C7C-46E6-8D6C-D70DB9B19FD2}.Release|Any CPU.ActiveCfg = Release|x64
+		{5392D49D-4C7C-46E6-8D6C-D70DB9B19FD2}.Release|Any CPU.Build.0 = Release|x64
+		{5392D49D-4C7C-46E6-8D6C-D70DB9B19FD2}.Release|x64.ActiveCfg = Release|x64
+		{5392D49D-4C7C-46E6-8D6C-D70DB9B19FD2}.Release|x64.Build.0 = Release|x64
+		{5392D49D-4C7C-46E6-8D6C-D70DB9B19FD2}.Release|x86.ActiveCfg = Release|Win32
+		{5392D49D-4C7C-46E6-8D6C-D70DB9B19FD2}.Release|x86.Build.0 = Release|Win32
+		{54E22530-3F8C-4FC7-ACD6-5768AAED09B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E22530-3F8C-4FC7-ACD6-5768AAED09B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E22530-3F8C-4FC7-ACD6-5768AAED09B7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{54E22530-3F8C-4FC7-ACD6-5768AAED09B7}.Debug|x64.Build.0 = Debug|Any CPU
+		{54E22530-3F8C-4FC7-ACD6-5768AAED09B7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{54E22530-3F8C-4FC7-ACD6-5768AAED09B7}.Debug|x86.Build.0 = Debug|Any CPU
+		{54E22530-3F8C-4FC7-ACD6-5768AAED09B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E22530-3F8C-4FC7-ACD6-5768AAED09B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E22530-3F8C-4FC7-ACD6-5768AAED09B7}.Release|x64.ActiveCfg = Release|Any CPU
+		{54E22530-3F8C-4FC7-ACD6-5768AAED09B7}.Release|x64.Build.0 = Release|Any CPU
+		{54E22530-3F8C-4FC7-ACD6-5768AAED09B7}.Release|x86.ActiveCfg = Release|Any CPU
+		{54E22530-3F8C-4FC7-ACD6-5768AAED09B7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -182,6 +210,7 @@ Global
 		{5C2EAAD8-934D-4F4A-8C40-F21E5DCC8E65} = {F7394BE6-EFB1-4E3A-B6B7-221BAF45E21B}
 		{0607434B-FFBA-4B49-843A-F62E9A1138B2} = {F7394BE6-EFB1-4E3A-B6B7-221BAF45E21B}
 		{DD3986BD-6B00-4E5F-9BE3-E44D09541747} = {F7394BE6-EFB1-4E3A-B6B7-221BAF45E21B}
+		{54E22530-3F8C-4FC7-ACD6-5768AAED09B7} = {056F8889-176F-49F9-90E6-6DF15979BF7B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {738C7570-7906-4ADA-81DB-D98A28A83C40}
