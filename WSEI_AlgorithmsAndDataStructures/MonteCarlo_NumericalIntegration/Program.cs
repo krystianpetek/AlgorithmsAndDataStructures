@@ -14,7 +14,7 @@ public class Program
 
         //// values for testing purposes
         //parameters = new double[] { 1, 1, 1, 3, 1, -0.5 };
-        //parameters = new double[] { 5, 4, 5, 1, 3, -0.6 };
+        //parameters = new double[] { 2, 5, 4, 5, 1.9, -0.6 };
         //parameters = new double[] { 1, -1, -2, 0, 0.4, 2 };
         //parameters = new double[] {1,-1,-2,1,3,-0.6};
     }
