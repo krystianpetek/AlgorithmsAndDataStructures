@@ -24,11 +24,13 @@ Na konsoli wyświetla się lista z liczbami pierwszymi z podanego zakresu od 2 d
 
 ### **4. Pojawia się ponownie menu wyboru jednej z 3 opcji.**
 
-Użytkownik wybrał opcję numer 2. Wyświetla się lista 'bliźniaków' liczb pierwszych
+Użytkownik wybrał opcję numer 2. Wyświetla się lista ['bliźniaków'](https://en.wikipedia.org/wiki/Twin_prime) liczb pierwszych
 
 ![3](./3.png "Użytkownik wybrał opcję numer 2.")
 
 ### **5. Pojawia się kolejny raz menu wyboru, tym razem użytkownik wybrał opcję numer 3.**
+
+Wyświetliła się lista ['czworaczków'](https://en.wikipedia.org/wiki/Prime_quadruplet) liczb pierwszych
 
 ![4](./4.png "Użytkownik wybrał opcję numer 3.")
 

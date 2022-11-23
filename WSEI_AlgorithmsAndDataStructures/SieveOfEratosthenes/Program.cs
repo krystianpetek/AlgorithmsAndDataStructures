@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 
 namespace SieveOfEratosthenes;
 
@@ -43,16 +44,19 @@ public class Program
             switch (key.Key)
             {
                 case ConsoleKey.D1:
+                case ConsoleKey.NumPad1:
                     primeList = new PrimeNumbers(primeNumbers);
                     primeList.Display();
                     break;
 
                 case ConsoleKey.D2:
+                case ConsoleKey.NumPad2:
                     primeList = new TwinsNumbers(primeNumbers);
                     primeList.Display();
                     break;
 
                 case ConsoleKey.D3:
+                case ConsoleKey.NumPad3:
                     primeList = new QuadrupletsNumbers(primeNumbers);
                     primeList.Display();
                     break;
@@ -66,7 +70,7 @@ public class Program
 
     private static void InputFromUser(out int N)
     {
-        Console.WriteLine("Please enter the number of the end of the range lower than or equal 1000000\nN: ");
+        Console.Write("Please enter the number of the end of the range lower than or equal 1000000\nN: ");
         bool tryParse = int.TryParse(Console.ReadLine(), out N);
         if (!tryParse || N >= 1000000)
         {
