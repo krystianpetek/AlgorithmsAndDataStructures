@@ -73,6 +73,5 @@ public class Program
             Console.WriteLine("Wrong value, error!");
             Environment.Exit(1);
         }
-
     }
 }
