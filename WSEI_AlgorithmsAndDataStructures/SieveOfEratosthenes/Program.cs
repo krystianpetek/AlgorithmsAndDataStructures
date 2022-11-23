@@ -2,58 +2,35 @@
 
 namespace SieveOfEratosthenes;
 
-static class Program
+public class Program
 {
-    static void Main()
+    public static void Main()
     {
-        bool tryParse = int.TryParse(Console.ReadLine(), out int n);
-        if (!tryParse || n > 1000000)
-        {
-            Console.WriteLine("error");
-            return;
-        }
+        InputFromUser(out int N);
 
         // generate list of numbers
-        var numbers = Enumerable.Range(0,n).ToList();
-        
+        var numbers = Enumerable.Range(0, N).ToList();
+
         // computed range sqrt of inputed n
-        var sqrtN = Math.Sqrt(n);
-        
-        Stopwatch stopwatch = Stopwatch.StartNew();
+        var sqrtN = Math.Sqrt(N);
+
         // eratosthenes algorithm
         for (var i = 2; i <= sqrtN; i++)
         {
             if (numbers[i] == 0)
                 continue;
-                
-            var j = i+i;
-            while (j<n)
+
+            var j = i + i;
+            while (j < N)
             {
                 numbers[j] = 0;
                 j += i;
             }
         }
-        stopwatch.Stop();
+
         var primeNumbers = numbers.Where(x => x != 0).Where(x => x != 1).ToList();
 
-        // twins numbers
-        var twinsNumbers = new List<string>();
-        for (var i = 1; i < primeNumbers.Count; i++)
-        {
-            if (primeNumbers[i - 1] + 2 == primeNumbers[i])
-                twinsNumbers.Add($"{primeNumbers[i-1]}, {primeNumbers[i]}");
-        }
-        
-        // quadruplets
-        var quadruplets = new List<string>();
-        for (var i = 1; i < primeNumbers.Count-2; i++)
-        {
-            var p = primeNumbers[i - 1];
-            if (p + 2 == primeNumbers[i] && p + 6 == primeNumbers[i + 1] && p + 8 == primeNumbers[i + 2])
-                quadruplets.Add($"{primeNumbers[i-1]}, {primeNumbers[i]}, {primeNumbers[i+1]}, {primeNumbers[i+2]}");
-        }
-
-
+        INumber primeList;
         bool exit = true;
         while (exit)
         {
@@ -66,25 +43,36 @@ static class Program
             switch (key.Key)
             {
                 case ConsoleKey.D1:
+                    primeList = new PrimeNumbers(primeNumbers);
+                    primeList.Display();
+                    break;
 
-                    Console.WriteLine("\nPrime numbers: ");
-                    primeNumbers.ForEach(x => Console.WriteLine(x));
-                    break;
-                
                 case ConsoleKey.D2:
-                    Console.WriteLine("\nTwins numbers: ");
-                    twinsNumbers.ForEach(x => Console.WriteLine(x));
+                    primeList = new TwinsNumbers(primeNumbers);
+                    primeList.Display();
                     break;
-                
+
                 case ConsoleKey.D3:
-                    Console.WriteLine("\nQuadruplets: ");
-                    quadruplets.ForEach(x => Console.WriteLine(x));
+                    primeList = new QuadrupletsNumbers(primeNumbers);
+                    primeList.Display();
                     break;
-                
+
                 default:
                     exit = false;
                     break;
             }
         }
-    }    
+    }
+
+    private static void InputFromUser(out int N)
+    {
+        Console.WriteLine("Please enter the number of the end of the range lower than or equal 1000000\nN: ");
+        bool tryParse = int.TryParse(Console.ReadLine(), out N);
+        if (!tryParse || N >= 1000000)
+        {
+            Console.WriteLine("Wrong value, error!");
+            Environment.Exit(1);
+        }
+
+    }
 }
