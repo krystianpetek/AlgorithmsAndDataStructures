@@ -53,8 +53,8 @@ Wynikiem działania programu jest rezultat - miejsca zerowe w punktach:
 - x2: `1.0844`
 - x3: `1.8474`
 
-W celu weryfikacji poprawności wyniku zamieszczam zrzut ekranu grafu do zgodny z parametrami równania [(źródło)](https://www.symbolab.com/graphing-calculator/polynomial-function)
+W celu weryfikacji poprawności wyniku zamieszczam zrzut ekranu wykresu do zgodny z parametrami równania [(źródło)](https://www.symbolab.com/graphing-calculator/polynomial-function)
 
-![4](./4.png "Zrzut ekranu grafu.")
+![4](./4.png "Zrzut ekranu wykresu.")
 
 ### **4. Użytkownik wcisnął dowolny klawisz. Program kończy działanie.**

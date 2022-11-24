@@ -21,9 +21,9 @@ Użytkownik podaje parametry o wartościach:
 
 ![3](./3.png "Wynik działania programu.")
 
-W celu weryfikacji poprawności wyniku zamieszczam zrzut ekranu grafu do zgodny z parametrami równania [(źródło)](https://www.symbolab.com/graphing-calculator/polynomial-function)
+W celu weryfikacji poprawności wyniku zamieszczam zrzut ekranu wykresu do zgodny z parametrami równania [(źródło)](https://www.symbolab.com/graphing-calculator/polynomial-function)
 
-![2](./2.png "Zrzut ekranu grafu.")
+![2](./2.png "Zrzut ekranu wykresu.")
 
 ### **3. Użytkownik wcisnął dowolny klawisz. Program kończy działanie.**
 
@@ -38,7 +38,7 @@ Użytkownik podaje parametry o wartościach:
 - `c`x = -4
 - `d` = -4
 
-![4](./4.png "Zrzut ekranu grafu.")
+![4](./4.png "Zrzut ekranu wykresu.")
 
 Wynikiem działania programu jest rezultat - `1 pierwiastek rzeczywisty i 2 zespolone`
 

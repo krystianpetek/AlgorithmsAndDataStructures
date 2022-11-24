@@ -17,7 +17,8 @@ public class Settings
     }
     public override string ToString()
     {
-        return $"X scope range from: {X.Minimum} to: {X.Maximum}\n" +
+        return $"Settings parameters:\n" +
+            $"X scope range from: {X.Minimum} to: {X.Maximum}\n" +
             $"Y scope range from: {Y.Minimum} to: {Y.Maximum}\n" +
             $"Delta: {Delta}\n" +
             $"Precision: {Precision}\n";

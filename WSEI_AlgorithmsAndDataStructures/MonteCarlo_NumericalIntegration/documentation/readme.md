@@ -1,27 +1,23 @@
-# Sprawozdanie z prezentacji algorytmu rozwiązywania równania 5 stopnia, metodą bisekcji
+# Sprawozdanie z prezentacji algorytmu całkowania numerycznego, metodą Monte Carlo
 
-## Projekt numer 3 - Algorytmy i struktury danych
+## Projekt numer 4 - Algorytmy i struktury danych
 
 ### `Autor: Krystian Petek`
 
-Metoda bisekcji zwana również metodą połowienia lub wyszukiwaniem binarnym pozwala stosunkowo szybko znaleźć pierwiastek dowolnej funkcji w zadanym przedziale poszukiwań [a,b]. Aby można było zastosować metodę bisekcji, funkcja musi spełniać kilka warunków początkowych:
+Metoda Monte Carlo – metoda stosowana do modelowania matematycznego procesów zbyt złożonych (obliczania całek, łańcuchów procesów statystycznych), aby można było przewidzieć ich wyniki za pomocą podejścia analitycznego. Istotną rolę w tej metodzie odgrywa losowanie (wybór przypadkowy) wielkości charakteryzujących proces, przy czym losowanie dokonywane jest zgodnie z rozkładem, który musi być znany.
 
-- Funkcja musi być określona w przedziale
-- Funkcja musi być ciągła w przedziale
-- Na krańcach przedziału [a,b] funkcja musi mieć różne znaki
-
-### **1. Użytkownik jest proszony o podanie parametrów równania stopnia piątego**
+### **1. Użytkownik jest proszony o podanie parametrów wielomianu stopnia piątego**
 
 Użytkownik podaje parametry o wartościach:
 
 - `a`x^5 = `1`
 - `b`x^4 = `-1`
 - `c`x^3 = `-2`
-- `d`x^2 = `0`
-- `e`x = `0.4`
-- `f` = `2`
+- `d`x^2 = `1`
+- `e`x = `3`
+- `f` = `-0.6`
 
-![1](./1.png "Użytkownik podaje parametry równania stopnia piątego")
+![1](./1.png "Użytkownik podaje parametry wielomianu stopnia piątego")
 
 ### **2. Następnie użytkownik jest proszony o podanie parametrów konfiguracyjnych**
 
@@ -34,9 +30,9 @@ Parametry konfiguracyjne to:
 
 Użytkownik podaje parametry o wartościach:
 
-- minimalna wartość osi X: `-1000`
-- maksymalna wartość osi X: `1000`
-- delta = `0.001`
+- minimalna wartość osi X: `-1`
+- maksymalna wartość osi X: `2`
+- delta = `0.00001`
 - epsilon = `0.000001`
 
 ![2](./2.png "Użytkownik podaje parametry konfiguracyjne.")
@@ -47,14 +43,22 @@ Rezultat działania programu dla zadanych parametrów funkcji oraz wymaganej kon
 
 ![3](./3.png "Wynik działania programu.")
 
-Wynikiem działania programu jest rezultat - miejsca zerowe w punktach:
+Wynikiem działania programu jest rezultat:
 
-- x1: `-1.242`
-- x2: `1.0844`
-- x3: `1.8474`
+- Parametry konfiguracyjne wprowadzone przez użytkownika
+- Wyliczony przez algorytm zakres osi Y, zakres obliczanej całki
+- Ilość wylosowanych liczb pod wykresem oraz ilość wylosowanych liczb nad wykresem
+- Suma losowań
+- Obliczona wartość pola powierzchni pod wykresem całki dla wprowadzonych parametrów
 
-W celu weryfikacji poprawności wyniku zamieszczam zrzut ekranu grafu do zgodny z parametrami równania [(źródło)](https://www.symbolab.com/graphing-calculator/polynomial-function)
+W celu weryfikacji poprawności wyniku zamieszczam zrzut ekranu wykresu do zgodny z parametrami równania [(źródło)](https://www.symbolab.com/graphing-calculator/polynomial-function)
 
-![4](./4.png "Zrzut ekranu grafu.")
+Podgląd wykresu:
+
+![4](./4.png "Zrzut ekranu wykresu.")
+
+Weryfikacja poprawności
+
+![5](./5.png "Zrzut ekranu wykresu.")
 
 ### **4. Użytkownik wcisnął dowolny klawisz. Program kończy działanie.**

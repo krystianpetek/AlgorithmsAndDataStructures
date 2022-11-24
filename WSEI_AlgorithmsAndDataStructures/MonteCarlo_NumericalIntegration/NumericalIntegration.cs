@@ -8,20 +8,25 @@ internal class NumericalIntegration
 
     public NumericalIntegration(Settings settings) => Settings = settings;
 
-    public void MonteCarlo(double[] functionParameters)
+    public void MonteCarlo(NumericalIntegrationParameters functionParameters)
     {
-        CalculationResult result = new(functionParameters);
+        CalculationResult result = new(functionParameters.parameters);
 
-        // first calculating value scope of function
-        Settings.Y = CalculateY(Settings,functionParameters);
+        // first calculating value range Y of function
+        Settings.Y = CalculateY(Settings,functionParameters.parameters);
         Console.WriteLine(Settings);
 
         (double currentX, double maximumX) = Settings.X;
 
         while (currentX < maximumX)
         {
-            var valueOfFunction = Horner(currentX, functionParameters);
+            var valueOfFunction = Horner(currentX, functionParameters.parameters);
+
+            if (valueOfFunction < 0)
+                valueOfFunction = 0;
+            
             var randomValue = RandomValue(Settings.Y);
+
 
             if (randomValue > valueOfFunction)
                 result.BelowHits++;
