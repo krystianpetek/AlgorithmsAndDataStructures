@@ -1,6 +1,6 @@
 # Sprawozdanie z prezentacji algorytmu rozwiązywania równania 5 stopnia, metodą bisekcji
 
-## Projekt numer 2 - Algorytmy i struktury danych
+## Projekt numer 3 - Algorytmy i struktury danych
 
 ### `Autor: Krystian Petek`
 
