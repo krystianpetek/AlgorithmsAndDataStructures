@@ -23,20 +23,32 @@ public class Program
 
     public static void InputFromUser(out CubicEquatationParameters parameters)
     {
-        Console.Write("Please enter the value higher than zero, ax^3: ");
-        var a = double.Parse(Console.ReadLine());
-        if (a <= 0)
+        try
         {
-            Console.WriteLine("Wrong value, error!");
-            Environment.Exit(1);
-        }
-        Console.Write("Please enter the value bx^2: ");
-        var b = double.Parse(Console.ReadLine());
-        Console.Write("Please enter the value cx: ");
-        var c = double.Parse(Console.ReadLine());
-        Console.Write("Please enter the value d: ");
-        var d = double.Parse(Console.ReadLine());
+            Console.Write("Please enter the value higher than zero, ax^3: ");
+            var a = double.Parse(Console.ReadLine());
+            if (a <= 0)
+            {
+                Console.WriteLine("Wrong value, error!");
+                Environment.Exit(1);
+            }
+            Console.Write("Please enter the value bx^2: ");
+            var b = double.Parse(Console.ReadLine());
+            Console.Write("Please enter the value cx: ");
+            var c = double.Parse(Console.ReadLine());
+            Console.Write("Please enter the value d: ");
+            var d = double.Parse(Console.ReadLine());
 
-        parameters = new CubicEquatationParameters(a, b, c, d);
+            parameters = new CubicEquatationParameters(a, b, c, d);
+        }
+        catch (Exception ex)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Wrong value, error!");
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.WriteLine(ex.Message);
+            Environment.Exit(-1);
+            throw;
+        }
     }
 }

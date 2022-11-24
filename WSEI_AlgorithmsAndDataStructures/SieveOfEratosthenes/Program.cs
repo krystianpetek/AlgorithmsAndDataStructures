@@ -67,12 +67,25 @@ public class Program
 
     private static void InputFromUser(out int N)
     {
-        Console.Write("Please enter the number of the end of the range lower than or equal 1000000\nN: ");
-        bool tryParse = int.TryParse(Console.ReadLine(), out N);
-        if (!tryParse || N >= 1000000)
+        try
         {
+
+            Console.Write("Please enter the number of the end of the range lower than or equal 1000000\nN: ");
+            bool tryParse = int.TryParse(Console.ReadLine(), out N);
+            if (!tryParse || N >= 1000000)
+            {
+                Console.WriteLine("Wrong value, error!");
+                Environment.Exit(1);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Wrong value, error!");
-            Environment.Exit(1);
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.WriteLine(ex.Message);
+            Environment.Exit(-1);
+            throw;
         }
     }
 }

@@ -2,15 +2,10 @@
 
 public class BisectionNumericMethod
 {
-    private Settings _settings;
+    private readonly Settings _settings;
 
     public BisectionNumericMethod(Settings settings) 
     {
-        if (settings.MinValue > settings.MaxValue)
-        {
-            Console.WriteLine("Wrong parameters value.");
-            return;
-        }
         _settings = settings;
     }
 
@@ -19,8 +14,7 @@ public class BisectionNumericMethod
         var N = new BisectionArgument(_settings.MinValue, 0, _settings.MinValue + _settings.Delta);
         var nValue = new BisectionValue();
 
-
-        while(N.Left < _settings.MaxValue)
+        while (N.Left < _settings.MaxValue)
         {
             N.Right = N.Left + _settings.Delta;
             nValue.Left = Horner(N.Left, parameters);
@@ -32,12 +26,12 @@ public class BisectionNumericMethod
                 while (true)
                 {
                     N.Middle = (N.Left + N.Right) / 2;
-                    if (Math.Abs(N.Left- N.Middle) < _settings.Precision)
+                    if (Math.Abs(N.Left- N.Middle) < _settings.Epsilon)
                         break;
 
                     nValue.Middle = Horner(N.Middle, parameters);
 
-                    if (Math.Abs(nValue.Middle) < _settings.Precision)
+                    if (Math.Abs(nValue.Middle) < _settings.Epsilon)
                         break;
 
                     if (nValue.Left * nValue.Middle < 0)
@@ -49,9 +43,7 @@ public class BisectionNumericMethod
                     }
                 }
 
-                Console.WriteLine(_settings);
                 Console.WriteLine(N);
-                Console.WriteLine(nValue);
                 Console.WriteLine();
             }
             N.Left += _settings.Delta;
