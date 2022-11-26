@@ -4,7 +4,7 @@
     {
         int N = 20;
         var travellingSalesman = new TravellingSalesman(N);
-        travellingSalesman.DoWork();
+        travellingSalesman.Work();
         return;
 
         // InputFromUser(out int N);
