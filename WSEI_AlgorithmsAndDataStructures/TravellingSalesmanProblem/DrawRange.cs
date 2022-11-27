@@ -1,3 +1,4 @@
+namespace TravellingSalesmanProblem;
 
 public class DrawRange
 {

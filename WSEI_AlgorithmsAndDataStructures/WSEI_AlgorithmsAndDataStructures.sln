@@ -33,7 +33,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_bisection", "cpp_bisect
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BisectionNumericMethod", "BisectionNumericMethod\BisectionNumericMethod.csproj", "{54E22530-3F8C-4FC7-ACD6-5768AAED09B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonteCarlo_NumericalIntegration", "MonteCarlo_NumericalIntegration\MonteCarlo_NumericalIntegration.csproj", "{93969145-3F44-4E49-8232-2C4155E4FEFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonteCarlo_NumericalIntegration", "MonteCarlo_NumericalIntegration\MonteCarlo_NumericalIntegration.csproj", "{93969145-3F44-4E49-8232-2C4155E4FEFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravellingSalesmanProblem", "TravellingSalesmanProblem\TravellingSalesmanProblem.csproj", "{9289782F-A018-4298-8261-517DF9281FAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +215,18 @@ Global
 		{93969145-3F44-4E49-8232-2C4155E4FEFE}.Release|x64.Build.0 = Release|Any CPU
 		{93969145-3F44-4E49-8232-2C4155E4FEFE}.Release|x86.ActiveCfg = Release|Any CPU
 		{93969145-3F44-4E49-8232-2C4155E4FEFE}.Release|x86.Build.0 = Release|Any CPU
+		{9289782F-A018-4298-8261-517DF9281FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9289782F-A018-4298-8261-517DF9281FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9289782F-A018-4298-8261-517DF9281FAC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9289782F-A018-4298-8261-517DF9281FAC}.Debug|x64.Build.0 = Debug|Any CPU
+		{9289782F-A018-4298-8261-517DF9281FAC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9289782F-A018-4298-8261-517DF9281FAC}.Debug|x86.Build.0 = Debug|Any CPU
+		{9289782F-A018-4298-8261-517DF9281FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9289782F-A018-4298-8261-517DF9281FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9289782F-A018-4298-8261-517DF9281FAC}.Release|x64.ActiveCfg = Release|Any CPU
+		{9289782F-A018-4298-8261-517DF9281FAC}.Release|x64.Build.0 = Release|Any CPU
+		{9289782F-A018-4298-8261-517DF9281FAC}.Release|x86.ActiveCfg = Release|Any CPU
+		{9289782F-A018-4298-8261-517DF9281FAC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -226,6 +240,7 @@ Global
 		{DD3986BD-6B00-4E5F-9BE3-E44D09541747} = {F7394BE6-EFB1-4E3A-B6B7-221BAF45E21B}
 		{54E22530-3F8C-4FC7-ACD6-5768AAED09B7} = {056F8889-176F-49F9-90E6-6DF15979BF7B}
 		{93969145-3F44-4E49-8232-2C4155E4FEFE} = {056F8889-176F-49F9-90E6-6DF15979BF7B}
+		{9289782F-A018-4298-8261-517DF9281FAC} = {056F8889-176F-49F9-90E6-6DF15979BF7B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {738C7570-7906-4ADA-81DB-D98A28A83C40}
